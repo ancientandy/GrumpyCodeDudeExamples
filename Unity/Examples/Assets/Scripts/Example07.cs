@@ -12,7 +12,7 @@ public class CreateCube : MonoBehaviour
     void Start()
     {
         m_rot = Vector3.zero;
-        OnCreateCube(1.0f, 4);
+        OnCreateCube(1.0f, 32);
     }
 
     // Each update, we're going to change the rotation of the cube. No real
